@@ -79,10 +79,14 @@ ${list3[12]}  ${list3[13]}  ${list3[14]}
     String ans6 = stdin.readLineSync()!;
     ans6 = ans6.toLowerCase() ;
     if (ans6== "yes") {
-      sum += list5[0] ;
-      print ("YOUR NUMBER IS: $sum");
-    }
+      sum += list5[0];
+      print("YOUR NUMBER IS: $sum");
 
+
+  }
+else {
+      print("YOUR NUMBER IS: $sum");
+    }
 
   }else {print ("SORRY YOU MUST BE ATLEAST 10 YEARS OLD");} }
 
